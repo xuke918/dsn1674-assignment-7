@@ -21,9 +21,9 @@ h1 {
 }
 
 .masthead {
-	background-image: url("../images/logo1.svg"), url("../images/logo2.svg"), url("../images/background.png");
+	background-image: url("../images/logo.svg"), url("../images/logo.svg"), url("../images/background.png");
 	background-size: 50px auto, 50px auto, 100px auto;
-	padding: 1em 0em 0em 0em;
+	padding: 0em;
 	background-repeat: no-repeat, no-repeat, repeat;
 	background-position: left 20px, right 20px, center 20px;
 	text-align: center;
@@ -31,7 +31,7 @@ h1 {
 
 nav li{
 	float: left;
-	width: 25%;
+	width: 20%;
 }
 
 nav ul {
@@ -44,7 +44,7 @@ nav ul {
 nav a {
 	display: block;
 	color: #fff;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	text-decoration: none;
 	text-align: center;
 	padding: 0.5em;
@@ -60,6 +60,7 @@ nav {
 
 nav ol{
   margin: 0;
+  padding: 0;
 }
 
 ul li:hover {
