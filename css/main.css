@@ -10,6 +10,7 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -57,13 +58,28 @@ nav {
 	padding: 0;
 }
 
-ul li:hover {
+nav ol{
+  margin: 0;
+}
+
+ol li:hover {
 	background-color: #512200;
 	opacity: 0.75;
 	margin: 0;
 	padding: 0.5;
 }
 
+.ground{
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.dirtwrap{
+  position: relative;
+  padding: 0;
+}
 
 
 h2 {
@@ -78,13 +94,13 @@ h2 {
 	margin: 0;
 }
 
-.beetle-box {
+.bee {
 	position: relative;
 	float: left;
 	width: 50%;
 }
 
-.beetle-box img {
+.bee img {
 	display: block;
 	width: 100%;
 }
