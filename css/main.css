@@ -62,7 +62,7 @@ nav ol{
   margin: 0;
 }
 
-ol li:hover {
+ul li:hover {
 	background-color: #512200;
 	opacity: 0.75;
 	margin: 0;
@@ -135,7 +135,7 @@ footer {
 	padding: 10px;
 }
 
-.beetle-c {
+.logo3 {
 width: 30px;
 z-index: 1000em;
 }
