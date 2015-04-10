@@ -32,6 +32,7 @@ h1 {
 nav li{
 	float: left;
 	width: 20%;
+  text-decoration: none;
 }
 
 nav ul {
@@ -67,7 +68,7 @@ ul li:hover {
 	background-color: #512200;
 	opacity: 0.75;
 	margin: 0;
-	padding: 0.5;
+	padding: 0em;
 }
 
 .ground{
