@@ -16,12 +16,13 @@ h1 {
   font-family: 'Dosis', sans-serif;
   color: #512200;
   margin: 0;
+  text-align: center;
 }
 
 nav {
   font-family: 'Dosis', sans-serif;
   background-color: #512200;
-  padding: 1em;
+  padding: 2em;
   display: block;
 }
 
@@ -30,7 +31,14 @@ nav a {
   color: #fff;
   text-decoration: none;
   display: block;
+
 }
+
+nav a:hover{
+  background-color
+
+}
+
 nav ol {
   list-style-type: none;
   margin: 0;
@@ -40,4 +48,38 @@ nav ol {
 nav li {
 float: left;
 width: 25%;
+}
+
+.logo1{
+  width:25%;
+}
+
+.logo2{
+  width: 25%;
+}
+
+.background{
+  width: 100%;
+  clear: both;
+}
+
+.ground{
+  width: 100%;
+}
+.ant{
+  width: 50%;
+}
+
+.dung{
+  width: 50%;
+  float: right;
+}
+
+.stag{
+  width: 50%;
+}
+
+.tortoise{
+  width: 50%;
+  float: right;
 }
