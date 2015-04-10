@@ -17,7 +17,7 @@ h1 {
 	font-size: 3rem;
 	color: #512200;
 	margin: 0;
-	padding: 0.5em;
+	padding: 1eem;
 }
 
 .masthead {
@@ -31,11 +31,10 @@ h1 {
 
 nav li{
 	float: left;
-	width: 20%;
-  text-decoration: none;
+	width: 25%;
 }
 
-nav ul {
+nav ol {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
@@ -64,7 +63,7 @@ nav ol{
   padding: 0;
 }
 
-ul li:hover {
+ol li:hover {
 	background-color: #512200;
 	opacity: 0.75;
 	margin: 0;
@@ -94,6 +93,7 @@ h2 {
 	text-align: center;
 	width: 100%;
 	margin: 0;
+  bottom: 0;
 }
 
 .bee {
